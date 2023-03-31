@@ -1,0 +1,43 @@
+@font-face {
+  font-family: 'icons';
+  src:  url('fonts/icons.eot?ho7cjd');
+  src:  url('fonts/icons.eot?ho7cjd#iefix') format('embedded-opentype'),
+    url('fonts/icons.ttf?ho7cjd') format('truetype'),
+    url('fonts/icons.woff?ho7cjd') format('woff'),
+    url('fonts/icons.svg?ho7cjd#icons') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icons' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-facebook:before {
+  content: "\e900";
+}
+.icon-handle:before {
+  content: "\e901";
+  color: #fff;
+}
+.icon-instagram:before {
+  content: "\e902";
+}
+.icon-look:before {
+  content: "\e903";
+}
+.icon-twitter:before {
+  content: "\e904";
+}

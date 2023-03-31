@@ -1,0 +1,16 @@
+{
+	"collection": [
+		{
+			"image": "01.png",
+			"text": "Collectibles"
+		},
+		{
+			"image": "02.png",
+			"text": "Art"
+		},
+		{
+			"image": "03.png",
+			"text": "Photography"
+		}
+	]
+}
